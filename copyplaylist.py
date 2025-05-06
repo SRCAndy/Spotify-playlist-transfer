@@ -5,10 +5,10 @@ import webbrowser
 from spotipy.exceptions import SpotifyException
 
 # Configuración de credenciales
-cid = 'fd014a09e2e84d57b98fac8c3d000f8b'
-secret = '32ed60ce0f194899b9a6b54059490fc9'
-source_playlist_id = '37i9dQZF1DXcfZ6moR6J0G'  # Playlist de origen
-target_playlist_id = '6Xz1FAoR2yjXUwbA83NmZ8'  # Playlist de destino
+cid = 'your_cid'
+secret = 'your_secreid'
+source_playlist_id = 'idsource'  # Playlist de origen
+target_playlist_id = 'idtarget'  # Playlist de destino
 
 redirect_uri = 'http://localhost:8080'  # URI de redirección
 
